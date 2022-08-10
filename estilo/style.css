@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: inconsolata;
+    src: url(../fontes/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+:root {
+    --cor1: ; 
+    --cor2: ; 
+    --cor3: ; 
+    --cor4: ; 
+}
+
+body {
+    background-color: black;
+}
+
+#abertura {
+    width: 100vw;
+    height: 650px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../midias/imagens/fundo-003.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    font-family: inconsolata;
+    font-size: 3em;
+    color: aliceblue;
+}
+#abertura h1 {
+    text-shadow: 2px 3px 4px black;
+}
+#abertura p {
+    text-shadow: 1px 1px 5px black;
+}
+
+/*conteudo/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#cont {
+    max-width: 1000px;
+    min-width: 600px;
+    height: 1000px;
+    margin: auto;
+}
+#section1 {
+    padding: 50px;
+    margin: 10px 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#section1 img {
+    border-radius: 50px;
+}
+#quemsomos {
+    font-family: inconsolata;
+    font-size: 1em;
+    color: white;
+
+    width: 300px;
+}
