@@ -7,10 +7,15 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
+/* fonte logo */
 @font-face {
     font-family: inconsolata;
     src: url(../fontes/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+/* fonte basica*/
+@font-face {
+    font-family: nunito;
+    src: url(../fontes/Nunito-VariableFont_wght.ttf);
 }
 
 :root {
@@ -22,6 +27,29 @@
 
 body {
     background-color: black;
+    font-family: nunito;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+#nav {
+    width: 100vw;
+    height: 100px;
+      
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    color: rgb(117, 115, 115);
+
+}
+#nav li:hover {
+    color: white;
+    transition-duration: 1s;
 }
 
 #abertura {
@@ -72,7 +100,6 @@ body {
     border-radius: 50px;
 }
 #quemsomos {
-    font-family: inconsolata;
     font-size: 1em;
     color: white;
 
