@@ -44,10 +44,11 @@ header {
     justify-content: space-around;
     align-items: center;
 
-    color: rgb(117, 115, 115);
-
 }
-#nav li:hover {
+#nav a {
+    color: grey;
+}
+#nav a:hover {
     color: white;
     transition-duration: 1s;
 }
